@@ -29,4 +29,14 @@ dx = input("input x coordinate for dislike: ")
 dy = input("input y coordinate for dislike: ")
 with open('variables.py', 'a') as f:
     f.writelines("dx = " +  dx + '\n')
-    f.writelines("dy = " + dy)
+    f.writelines("dy = " + dy + '\n')
+
+print("estimate where the back to tinder button will appear")
+input("R?")
+print(pyautogui.position())
+mx = input("x?")
+my = input("Y?")
+with open('variables.py', 'a') as f:
+    f.writelines("mx = " + mx + '\n')
+    f.writelines("my = " + my)
+
