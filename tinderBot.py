@@ -3,9 +3,10 @@ import pyautogui
 import random
 from variables import *
 
-value = random.randint(1, 1000000)
 
 while (1 == 1):
+    value = random.randint(1, 1000000)
+
     if value % 2 == 0:
 
         time.sleep(random.randint(10, 100))
