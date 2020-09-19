@@ -2,9 +2,9 @@ import time
 import pyautogui
 import random
 from variables import *
+counter = 0
 
-
-while (1 == 1):
+while counter <= 100
     value = random.randint(1, 1000000)
 
     if value % 2 == 0:
@@ -20,6 +20,7 @@ while (1 == 1):
         
         time.sleep(random.randint(5, 90))
         pyautogui.click(lx, ly) #click like
+        counter = counter + 1
     else:
 
         time.sleep(random.randint(10, 70))
