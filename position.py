@@ -31,7 +31,7 @@ with open('variables.py', 'a') as f:
     f.writelines("dx = " +  dx + '\n')
     f.writelines("dy = " + dy + '\n')
 
-print("estimate where the back to tinder button will appear")
+print("estimate where the button will appear")
 input("R?")
 print(pyautogui.position())
 mx = input("x?")
